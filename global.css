@@ -1,0 +1,17 @@
+:root {
+  --bg-color: #f1f1f1;
+  --accent-color: #ffab40;
+  --clickable-color: white;
+  --font-color: black;
+  --font-sec-color: #8d8d8d;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+

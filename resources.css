@@ -1,0 +1,38 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.card {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 var(--shadow-color);
+  transition: 0.3s;
+  text-align: center;
+  background-color: var(--clickable-color);
+  border-radius: 10px;
+  margin: 16px;
+  color: var(--font-color)
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 var(--shadow-color);
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: left;
+  padding: 16px;
+  
+}
+
+.card-sub {
+  color: var(--font-sec-color);
+}
